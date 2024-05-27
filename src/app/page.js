@@ -31,9 +31,10 @@ try {
     take: perPage,
     skip: skip,
     where: where,
-    orderBy: {createdAt: 'desc'},
+    orderBy: {id: 'desc'},
     include: {
-        author: true
+        author: true,
+        comments: true
     }
 })
 
