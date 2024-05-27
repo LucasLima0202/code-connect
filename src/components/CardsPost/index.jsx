@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Avatar from "../Avatar/Index.jsx";
+import Avatar from "../Avatar";
 import styles from './genstyle.module.css'
 import Link from "next/link"
 
