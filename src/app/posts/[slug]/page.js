@@ -3,7 +3,7 @@ import { remark } from "remark";
 import html from "remark-html";
 import Image from "next/image";
 import styles from '../../../components/CardsPost/genstyle.module.css';
-import { Avatar } from '../../../components/Avatar/Index.jsx';
+import Avatar  from '../../../components/Avatar/Index.jsx';
 import db from "../../../../prisma/migrations/db";
 import { log } from "winston";
 import { redirect } from 'next'; 
