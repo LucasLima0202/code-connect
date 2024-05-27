@@ -1,0 +1,37 @@
+
+.erro_box{
+    display: flex;
+    padding: 24px auto;
+    border-radius: 8px 8px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Font{
+color: #81FE88;
+gap:2px;
+}
+.normal{
+    color:#BCBCBC;
+    font-size: 1rem;
+}
+.pad{
+    padding: 10px;
+    color: #81FE88;
+}
+.erro_box_sm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    align-self: center;
+}
+
+.space{
+    gap:2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

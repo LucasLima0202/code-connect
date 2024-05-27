@@ -1,0 +1,11 @@
+.ul_format{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+    color: #888888;
+    padding-right: 25px;
+}
