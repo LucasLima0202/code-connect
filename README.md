@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# Code Connect
 
-```bash
+Um projeto representativo criado como parte de um curso da Alura para aprender e demonstrar o uso de tecnologias modernas como Next.js, React, Prisma, PostgreSQL e DBeaver.
+
+# Imagem Representativa
+![image](https://github.com/LucasLima0202/code-connect/assets/99288439/18d2696c-3e5e-416f-9843-a3bc9c89c9d2)
+
+
+## Descrição do Projeto
+
+Code Connect é uma aplicação web que coleta e exibe posts e projetos para os usuários. A aplicação permite a busca por projetos utilizando um banco de dados, especificamente configurado com Prisma e PostgreSQL, gerenciado com DBeaver.
+
+## Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/SeuUsuario/code-connect.git
+   ```
+   Navegue para o diretório do projeto:
+
+   ```bash cd code-connect ```
+   Instale as dependências:
+   ```bash npm install```
+2. Configure o banco de dados:
+Crie um arquivo .env na raiz do projeto e adicione a string de conexão do banco de dados PostgreSQL:
+   Execute as migrações do Prisma:
+ ```bash npx prisma migrate dev npx prisma generate```
+   Popule o banco de dados com os dados iniciais:
+ ```bash
+npx prisma db seed
+ ```
+   Para iniciar a aplicação em modo de desenvolvimento, use o comando:
+ ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+npm run build
+npm start
+````
+**Contribuição**
+Faça um fork do projeto, Crie uma nova branch, Commit suas mudanças, Faça um push para a branch, Abra um Pull Request
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Licença**
+Este projeto não especifica uma licença, e sim curso da alura para aprender e utlizar essas tecnologias
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## **Tecnologias e Ferramentas**
+Next.js
+Prisma
+PostgreSQL
+DBeaver
+VSCode
+JavaScript
+HTML
+CSS
+Git
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## **Autores**
+Criador do curso na Alura
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## **Agradecimentos**
+Agradecimentos ao criador do curso e à equipe da Alura por fornecer o conhecimento e os recursos para este projeto.
