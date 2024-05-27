@@ -5,7 +5,8 @@
 Um projeto representativo criado como parte de um curso da Alura para aprender e demonstrar o uso de tecnologias modernas como Next.js, React, Prisma, PostgreSQL e DBeaver.
 
 # Imagem Representativa
-![image](https://github.com/LucasLima0202/code-connect/assets/99288439/18d2696c-3e5e-416f-9843-a3bc9c89c9d2)
+![image](https://github.com/LucasLima0202/code-connect/assets/99288439/cd765690-af44-4dfc-9dba-438ce8d1669c)
+
 
 
 ## Descrição do Projeto
